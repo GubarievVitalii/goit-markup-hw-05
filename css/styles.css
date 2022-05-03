@@ -309,7 +309,7 @@ ul, ol {
 /*----------SECTION-TITLE----------*/
 
 .main-title {
-    background: #2F303A;
+    background-color: #2F303A;
     padding: 200px 0;
     text-align: center;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img_fon.jpg);
@@ -422,6 +422,28 @@ ul, ol {
 
 .work-list:not(:last-child) {
     margin-right: 30px;
+}
+
+.work-list {
+    position: relative;
+}
+
+.work-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+    background: rgba(47, 48, 58, 0.8);
+    
+    
 }
 
 /*----------SECTION-COMANDS----------*/
